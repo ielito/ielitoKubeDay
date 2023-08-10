@@ -1,0 +1,13 @@
+﻿apiVersion: v1
+kind: Pod
+metadata:
+    name: ielitokubeday
+    labels:
+        app: ielito
+spec:
+    containers:
+        - name: ielitokubeday
+          image: ielo/ielitokubeday:1
+          ports:
+            - containerPort: 80
+              protocol: TCP
