@@ -1,0 +1,15 @@
+﻿apiVersion: v1
+kind: Service
+metadata:
+    name: ielitokubeday
+    labels:
+        app: ielitokubeday
+        service: ielitokubeday
+spec:
+    type: NodePort
+    ports:
+        - port: 80
+          targetPort: 80
+          nodePort: 30007
+    selector:
+        service: ielitokubeday
