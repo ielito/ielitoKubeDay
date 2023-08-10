@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ielitokubeday:
+    image: ${DOCKER_REGISTRY-}ielitokubeday
+    build:
+      context: .
+      dockerfile: ielitoKubeDay/Dockerfile
