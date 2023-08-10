@@ -1,0 +1,11 @@
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay.deps.json
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay.runtimeconfig.json
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/appsettings.Development.json
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/appsettings.json
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay.staticwebassets.runtime.json
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay.dll
+/Users/ielo/Projects/ielitoKubeDay/bin/Debug/ielitoKubeDay.pdb
+/Users/ielo/Projects/ielitoKubeDay/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
+/Users/ielo/Projects/ielitoKubeDay/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/ielo/Projects/ielitoKubeDay/obj/Debug/docker-compose.dcproj.CopyComplete
