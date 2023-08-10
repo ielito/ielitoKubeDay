@@ -1,0 +1,24 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ielitokubeday
+    labels:
+        app: ielitokubeday
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            service: ielitokubeday
+    template:
+        metadata:
+            labels:
+                app: ielitokubeday
+                service: ielitokubeday
+        spec:
+            containers:
+                - name: ielitokubeday
+                  image: ielo/ielitokubeday:1
+                  imagePullPolicy: IfNotPresent
+                  ports:
+                    - containerPort: 80
+                      protocol: TCP
